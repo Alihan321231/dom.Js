@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    background: gray;
+}
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background: red;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:10px;
+    margin-left: 80px;
+}
+input{
+    font-size: 27px;
+    height: 30px;
+padding: 0 120px;
+margin: 3px;
+border: 2px solid red;
+outline: none;
+border-radius: 6px;
+background: yellowgreen;
+color: wheat;
+
+}
+.todo{
+    background: brown;
+    width: 41%;
+    height: 600px;
+  border-radius: 20px;
+overflow-y: scroll;
+}
+.form{
+    margin-top: 20px;
+    background: brown;
+    margin-left: 20px;
+    
+}
+img {
+    
+    margin-top: 16px;
+    max-width: 40%;
+    max-height: 40%;
+    border-radius: 10px;        
+}
+
+.list  {
+text-decoration: none;
+margin-left: 30px;
+margin-right: 20px;
+margin-bottom:  20px;
+}
+.todo::-webkit-scrollbar{
+    background: chocolate;
+}
+.todo::-webkit-scrollbar-thumb{
+    background: white;
+    border: 2px solid plum;
+    border-radius: 200px
+
+}
